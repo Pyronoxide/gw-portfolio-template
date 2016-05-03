@@ -1,0 +1,111 @@
+/*Portfolio Template Styles*/
+
+/*
+Primary:670A0A
+Secodnary:00A34D
+Tertiary:ffdb00
+Fourthary:11E4FF
+*/
+
+
+
+
+
+/*Global Styles*/
+body, html{
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
+
+
+
+/*Header Styles*/
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #670A0A;
+  /*background-color: #ba33ff;*/
+}
+.logo{
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu ul{
+  position: relative;
+  top: 35px;
+}
+.menu li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+/*Banner Styles*/
+#banner{
+height: 300px;
+width: 100%;
+background: url("../img/Universe.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+#banner h1{
+text-align: center;
+padding-top: 90px;
+font-size: 3em;
+}
+
+/*Skills Styling*/
+#skills{
+  height: 500px;
+  width: 100%;
+  background-color: rgb(50, 10, 50);
+  padding-top: 45px;
+}
+
+.skills-container{
+  height: 75%;
+  width: 85%;
+  /*background-color: #fe34ac;*/
+  margin: 0 auto;
+}
+
+#skills article{
+  width: 25%;
+  height: 100%;
+  background-color: #ffdb00;
+  float: left;
+  margin: 0px 35px;
+  padding: 15px 20px;
+}
+
+#skills article h1{
+  text-align: center;
+}
